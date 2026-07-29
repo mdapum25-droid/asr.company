@@ -1,0 +1,84 @@
+.heading{
+    color: red;
+    text-align: center;
+}
+.main{
+    width: 230px;
+    height: 300px;
+    border: 2px solid red;
+    border-radius: 5px;
+    transition: 0.5s linear;
+    position: relative;
+    cursor: grab;
+    float: left;
+    clear: right;
+    margin-right: 30px;
+   
+}
+.main:hover{
+    border: 2px solid blue;
+    transform: translateY(-10px);
+}
+.main img{
+    width: 225px;
+    height: 200px;
+    margin-top: 5px;
+    display: block;
+    border: 1px dotted black;
+    margin: 2px auto 0px auto;
+    transition: 0.5S linear;
+}
+.main div{
+    overflow: hidden;
+}
+.main:hover img{
+    transform: scale(1.1);
+}
+.main h4{
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 3px;
+}
+.main p{
+    text-align: center;
+    margin: 0;
+    padding: 3px;
+}
+.main button{
+    display: block;
+    margin: 0px auto;
+    padding: 5px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    color: red;
+    font-size: bolder;
+    font-size: 20px;
+    transition: 0.5s linear;
+}
+.main button:hover{
+    color: red;
+    background-color: blue;
+    
+}
+.main i{
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+/* .main-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+
+}
+.rittik{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.main:hover .main :nth-child(5){
+    float: none;
+}
